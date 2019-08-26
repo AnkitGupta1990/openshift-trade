@@ -10,9 +10,9 @@ import java.util.Date;
 public class CommonUtil {
 
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-	static final String DB_URL = "jdbc:mysql://node42996-env-0066624.cloud.cms500.com:3306/auto_trade?useSSL=false";
+	static final String DB_URL = "jdbc:mysql://mysql-56-centos7-auto-trade.apps.us-east-1.online-starter.openshift.com:3306/test";
 	//static final String DB_URL = "jdbc:mysql://localhost:3306/auto_trade?useSSL=false";
-	static final String password = "TDAtlc11198";
+	static final String password = "root";
 	//static final String password = "root";
 	static Connection conn = null;
 	static Statement stmt = null;
